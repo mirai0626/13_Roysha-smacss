@@ -51,6 +51,10 @@ ul {
   align-items: center;
 }
 
+.l-flex-row {
+  flex-direction: row-reverse;
+}
+
 .l-max-w {
   max-width: 700px;
   margin-left: auto;
@@ -67,8 +71,13 @@ ul {
   background-color: #f7faff;
 }
 
-.l-bg-dark {
+.l-bg-gray {
+  color: #fff;
   background-color: #505050;
+}
+
+.l-bg-gray .unit-title {
+  color: #fff;
 }
 
 /* 余白 */
@@ -93,9 +102,18 @@ ul {
   padding-bottom: 40px;
 }
 
+.l-mb-11 {
+  margin-bottom: 46px;
+}
+
 /* テキスト */
 .l-text-center {
   text-align: center;
+}
+
+.l-text-center .btn {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .l-text-right {
@@ -142,6 +160,11 @@ ul {
   padding: 40px 60px;
 }
 
+.card--border {
+  border: 1px solid;
+  padding: 40px 0;
+}
+
 /* btn */
 .btn {
   display: block;
@@ -159,4 +182,13 @@ ul {
 
 .btn--info {
   background-color: #2dbe61;
+}
+
+.btn--outline {
+  background-color: transparent;
+  border: 1px solid;
+}
+
+.btn--orange {
+  background-color: #f87624;
 }
